@@ -107,10 +107,11 @@ button { font: inherit; }
 .timeline p strong { color: #4d4359; font-weight: 600; }
 
 /* Projetos */
-.project-heading { margin-bottom: 30px; }
-.projects { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
-.project { display: flex; min-width: 0; flex-direction: column; overflow: hidden; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); box-shadow: 0 12px 32px #402c5f0c; transition: transform .2s ease, box-shadow .2s ease; }
-.project:hover { transform: translateY(-3px); box-shadow: 0 18px 38px #402c5f18; }
+#projetos { background: linear-gradient(180deg, #f7f3fb 0%, #fcfaff 100%); }
+.project-heading { margin-bottom: 34px; }
+.projects { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
+.project { position: relative; display: flex; min-width: 0; flex-direction: column; overflow: hidden; border: 1px solid #e1d8eb; border-top: 4px solid #7654ad; border-radius: 12px; background: var(--surface); box-shadow: 0 10px 28px #30284212; transition: transform .2s ease, box-shadow .2s ease; }
+.project:hover { transform: translateY(-3px); box-shadow: 0 16px 34px #30284220; }
 .art { position: relative; isolation: isolate; display: grid; height: 230px; flex: 0 0 auto; place-items: center; overflow: hidden; border-bottom: 1px solid var(--line); background: radial-gradient(ellipse at 18% 18%, #fff 0, transparent 36%), linear-gradient(140deg, #eee6fb, #e3d8f2); }
 .art-two { background: radial-gradient(ellipse at 82% 20%, #fff 0, transparent 36%), linear-gradient(140deg, #e8e4f7, #dcd4ec); }
 .art-three { background: radial-gradient(ellipse at 20% 80%, #fff 0, transparent 38%), linear-gradient(140deg, #f1e7f4, #e4d8eb); }
@@ -128,18 +129,20 @@ button { font: inherit; }
 .studio > div { color: var(--accent); font-size: 9px; letter-spacing: 5px; }
 .studio > b { display: block; margin-top: 8px; color: #392e4a; font: 25px/.98 var(--font-display); letter-spacing: -.05em; }
 .studio > i { display: block; margin-top: 8px; color: #75688a; font-size: 7px; font-style: normal; letter-spacing: .1em; }
-.project-info { display: flex; flex: 1; flex-direction: column; align-items: flex-start; padding: 20px 22px 22px; }
+.project-info { display: flex; flex: 1; flex-direction: column; align-items: flex-start; padding: 24px 26px 26px; }
 .project-info label { color: var(--accent-dark); font-size: 8px; font-weight: 700; letter-spacing: .12em; }
-.project h3 { margin: 0 0 12px; font-size: 18px; line-height: 1.35; }
-.project-info p { flex: 1; margin: 0; color: var(--ink-soft); font-size: 11px; line-height: 1.75; text-align: justify; }
+.project h3 { margin: 0 0 14px; color: #302842; font-size: 21px; line-height: 1.35; }
+.project-info p { flex: 1; margin: 0; color: #51465f; font-size: 15px; line-height: 1.75; text-align: left; }
 .project-info > a { display: inline-block; margin-top: 16px; color: var(--accent-dark); font-size: 10px; font-weight: 700; }
 .project-info > a:hover { color: var(--accent); }
 .project-details { width: 100%; }
-.project-details summary { width: fit-content; color: var(--accent-dark); cursor: pointer; font-size: 11px; font-weight: 700; list-style: none; }
+.project-details summary { width: fit-content; padding: 8px 13px; border: 1px solid #ded2ee; border-radius: 6px; background: #f5effc; color: #68439f; cursor: pointer; font-size: 14px; font-weight: 700; list-style: none; transition: background .2s ease, border-color .2s ease; }
+.project-details summary:hover { border-color: #bda6dc; background: #eee5f8; }
+.project-details summary:focus-visible { outline: 2px solid var(--accent-dark); outline-offset: 3px; }
 .project-details summary::-webkit-details-marker { display: none; }
 .project-details summary::after { content: " +"; }
 .project-details[open] summary::after { content: " −"; }
-.project-details p { margin-top: 12px; }
+.project-info .project-details p { margin-top: 14px; padding: 14px 16px; border-left: 3px solid #a98acb; border-radius: 0 6px 6px 0; background: #f8f5fb; color: #463c54; font-size: 15px; line-height: 1.8; }
 .project-logo { display: block; width: min(100%, 220px); height: auto; margin: 18px auto 12px; }
 .project-logo-wide { width: min(100%, 420px); }
 
