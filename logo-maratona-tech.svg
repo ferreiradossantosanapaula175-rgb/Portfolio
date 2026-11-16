@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 722 186" role="img" aria-labelledby="title">
+  <title id="title">Maratona Tech</title>
+  <defs>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0874f6"/><stop offset="1" stop-color="#0645c9"/></linearGradient>
+    <pattern id="circuits" width="88" height="72" patternUnits="userSpaceOnUse" opacity=".13" fill="none" stroke="#73aaff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M8 0v25h28m-8 47V49h25M68 0v16h20M0 57h17V42h14"/><circle cx="37" cy="25" r="5" fill="#73aaff"/><circle cx="57" cy="49" r="5" fill="#73aaff"/><circle cx="17" cy="57" r="5" fill="#73aaff"/>
+    </pattern>
+  </defs>
+  <rect width="722" height="186" rx="10" fill="url(#blue)"/>
+  <rect width="722" height="186" rx="10" fill="url(#circuits)"/>
+  <g fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M154 92c-30-37-63-49-89-23-25 25-24 55 0 77 26 24 58 13 89-22 31-35 63-47 89-22 24 23 25 53 0 77-26 25-59 14-89-23-30-36-62-48-88-24"/>
+    <path d="M58 87H198M58 105h140" opacity=".8"/>
+  </g>
+  <circle cx="59" cy="96" r="15" fill="#b8d6ff"/>
+  <circle cx="199" cy="96" r="15" fill="#b8d6ff"/>
+  <text x="229" y="117" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="400" letter-spacing="-2">maratona tech</text>
+</svg>

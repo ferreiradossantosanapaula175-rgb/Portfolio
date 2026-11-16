@@ -130,10 +130,18 @@ button { font: inherit; }
 .studio > i { display: block; margin-top: 8px; color: #75688a; font-size: 7px; font-style: normal; letter-spacing: .1em; }
 .project-info { display: flex; flex: 1; flex-direction: column; align-items: flex-start; padding: 20px 22px 22px; }
 .project-info label { color: var(--accent-dark); font-size: 8px; font-weight: 700; letter-spacing: .12em; }
-.project h3 { margin: 8px 0 6px; font-size: 18px; line-height: 1.35; }
+.project h3 { margin: 0 0 12px; font-size: 18px; line-height: 1.35; }
 .project-info p { flex: 1; margin: 0; color: var(--ink-soft); font-size: 11px; line-height: 1.75; text-align: justify; }
 .project-info > a { display: inline-block; margin-top: 16px; color: var(--accent-dark); font-size: 10px; font-weight: 700; }
 .project-info > a:hover { color: var(--accent); }
+.project-details { width: 100%; }
+.project-details summary { width: fit-content; color: var(--accent-dark); cursor: pointer; font-size: 11px; font-weight: 700; list-style: none; }
+.project-details summary::-webkit-details-marker { display: none; }
+.project-details summary::after { content: " +"; }
+.project-details[open] summary::after { content: " −"; }
+.project-details p { margin-top: 12px; }
+.project-logo { display: block; width: min(100%, 220px); height: auto; margin: 18px auto 12px; }
+.project-logo-wide { width: min(100%, 420px); }
 
 /* Contato e rodapé */
 .contact { position: relative; overflow: hidden; padding-block: 82px; background: linear-gradient(125deg, #efe7fb, #e7dcf6); }

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">Jovens Curvelanos pelo Clima — 2ª edição 26/27</title>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="256" cy="151" r="88" fill="#0752b4"/>
+    <path d="M253 63l-8 18 10 10-8 12 12 8-4 15 10 7-7 15-16 4-9 14-18 1-7 17-17 4-4 16-18 3-4 15-17-1-5 15 33 28 29-2 20 13 16-3 5-18 17-7 7-18 16-7-3-18 11-14-4-18 12-9-4-18 9-12-8-17 10-14-5-18 12-10-5-14 7-14-10-9 3-15-12-8 2-14-16-8z" fill="#84c932"/>
+    <path d="M278 79l17 5 5 15 14 6-2 13 15 9-3 14 13 10-4 14 13 14-6 15-13 7-3 17-19 7-8-12-16 3-3-16-12-6 4-18-11-11 7-17-9-15 10-13-8-11z" fill="#84c932"/>
+    <path d="M226 280c-12-14-26-28-42-39-9-6-20-9-26-4-5 5-2 13 6 20l25 22-21-10c-10-5-19 2-14 12l15 18c-10-4-17 4-10 13l25 25c11 11 24 18 38 24l16-35z" fill="#e9b485" stroke="#d99b6d" stroke-width="3"/>
+    <path d="M285 280c12-14 26-28 42-39 9-6 20-9 26-4 5 5 2 13-6 20l-25 22 21-10c10-5 19 2 14 12l-15 18c10-4 17 4 10 13l-25 25c-11 11-24 18-38 24l-16-35z" fill="#e9b485" stroke="#d99b6d" stroke-width="3"/>
+    <path d="M161 238c-4-17-5-31-3-47 1-8 6-12 11-8 6 5 7 19 7 31l2 24m176 0c4-17 5-31 3-47-1-8-6-12-11-8-6 5-7 19-7 31l-2 24" fill="none" stroke="#d99b6d" stroke-width="5"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="900" text-anchor="middle" letter-spacing="-2">
+    <text x="256" y="380" fill="#0752b4" font-size="54">JOVENS</text>
+    <text x="256" y="414" fill="#84c932" font-size="34">CURVELANOS</text>
+    <text x="256" y="448" fill="#0752b4" font-size="34">PELO <tspan fill="#84c932">CLIMA</tspan></text>
+  </g>
+  <rect x="158" y="461" width="196" height="34" rx="5" fill="#84c932"/>
+  <text x="256" y="485" fill="#0752b4" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="900" text-anchor="middle" letter-spacing="-.5">2ª EDIÇÃO 26/27</text>
+</svg>

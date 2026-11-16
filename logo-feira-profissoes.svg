@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 458 218" role="img" aria-labelledby="title">
+  <title id="title">Feira das Profissões</title>
+  <rect width="458" height="218" fill="#ffd000"/>
+  <g fill="none" stroke="#17130a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <!-- briefcase -->
+    <path d="M48 45q0-20 23-22l15 6 14-7q22 4 22 24l-4 27q-1 12-13 15l-3 18-13-8-12 8-2-18q-20-4-22-20zM57 52q29 12 55 0M66 31l5-8h20l6 8M78 41l8 8 7-8"/>
+    <!-- stethoscope -->
+    <path d="M211 18v17q0 16 15 16t15-16V18m-30 0h8m17 0h8m-24 34v16q0 15 15 15h9m0 0a8 8 0 1 0 16 0 8 8 0 1 0-16 0zm-31-37a4 4 0 1 0 8 0 4 4 0 1 0-8 0zm32 0a4 4 0 1 0 8 0 4 4 0 1 0-8 0z"/>
+    <!-- signpost -->
+    <path d="M312 42h37v-8h-37zm4-8v-7h28v7m-18 16h38v8h-38zm9 8v10h21m-3-41h8v5h-8z"/>
+    <!-- gear -->
+    <path d="M421 57l4-7 8 3 1 8 7 3 7-4 5 7-5 7 2 7 8 3-1 9-9 1-5 6 1 8-8 4-6-6-8 1-4 7-9-2-1-8-6-5-8 2-4-8 6-6-1-8-7-4 2-9 8-1 5-6-2-8 8-4 6 6 8-1zm-3 23a10 10 0 1 0 20 0 10 10 0 1 0-20 0z"/>
+    <!-- linked path and small career icons -->
+    <path d="M4 105h16l6-8 9 16 8-9h17m-57 12h19l8 8 9-14 7 8h21m-40 4q5 18 20 18h28m5-19h12l9 9 9-18 8 7h24m-37 49q8-12 19-12l12 8 9-2m-45 4q15 3 25 15m-15-28q-2 10 0 18m1-24l5-10m107 30c11-10 21-9 31 0l-6 6h-23zm27 4l10-7 4 3-8 9m-145-98h25m-7 4v22m-8 0h17m80-34h21m-14 2v8"/>
+    <!-- dotted routes -->
+    <path d="M4 177h67q13 0 13-13v-6m-76 27h91q14 0 14-14v-13m192-99h28m57 40h18m-10 5h12" stroke-dasharray="2 4"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-weight="800" fill="#fff">
+    <text x="27" y="103" font-size="22" letter-spacing=".5">FEIRA DAS</text>
+    <text x="25" y="156" font-size="43" letter-spacing="-1.5">PROFISSÕES</text>
+  </g>
+  <g fill="#17130a" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="700">
+    <text x="334" y="172">INTERPET CE</text><text x="72" y="193">✦ ···</text>
+  </g>
+  <g fill="none" stroke="#17130a" stroke-width="1.3"><circle cx="132" cy="139" r="18"/><circle cx="132" cy="139" r="11"/><path d="M132 128l4 8-4 4-4-4z"/></g>
+</svg>
